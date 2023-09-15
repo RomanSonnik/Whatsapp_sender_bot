@@ -94,11 +94,11 @@ def filter_input(input_string):
 
 def select_mode():
     print(
-        "|--------------------------------------------------------------Select option---------------------------------------------------------|")
+        "|--------------------------------------------------------------Select option--------------------------------------------------------|")
     print(
-        "|1 - start script  2 - Rerun first setup  3 - Add numbers to database  4 - Clear numbers from database  5 - Check database  6 - quit |")
+        "|1 - start script  2 - Rerun first setup  3 - Add numbers to database  4 - Clear numbers from database  5 - Check database  6 - quit|")
     mode = input(
-        "|------------------------------------------------------------------------------------------------------------------------------------|\n")
+        "|-----------------------------------------------------------------------------------------------------------------------------------|\n")
     mode_new = re.findall(r'\d+', mode)
     mode = ''.join(mode_new)
     mode = int(mode)
